@@ -6,9 +6,13 @@ def chatbot_response(user_input):
     responses = {
         "hello": "Hi! How can I assist you today?",
         "hi": "Hi! How can I assist you today?",
+        "hey": "Hi! How can I assist you today?",
         "how are you": "I'm fine, thanks! How about you?",
+        "how's it going": "I'm fine, thanks! How about you?",
         "what's your name": "I'm ChatBot, created for CodeAlpha!",
         "bye": "Goodbye! Have a great day!",
+        "goodbye": "Goodbye! Have a great day!",
+        "see you": "Goodbye! Have a great day!",
         "exit": "Goodbye! Have a great day!"
     }
     # Return matching response or default if no match
